@@ -1,0 +1,45 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f8fc;
+	max-width: 100vw;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #000;
+	transition: .3s ease-in-out;
+}
+
+footer a:hover {
+	color: rgb(56, 49, 145);
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 992px) {
+	.content {
+			max-width: 992px;
+			height: auto;
+			margin: 1rem auto;
+			border-radius: 1rem;
+	}
+}
